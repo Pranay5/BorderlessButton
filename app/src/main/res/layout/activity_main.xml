@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+        <Button
+            android:text="Button"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:id="@+id/button2"
+            android:background="@drawable/red_button"/>
+
+        <EditText
+            android:hint="email"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:inputType="textAutoCorrect"
+            android:background="@drawable/custom_edittext"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:inputType="textCapWords"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="hint" />
+        </android.support.design.widget.TextInputLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+
+
+</LinearLayout>
